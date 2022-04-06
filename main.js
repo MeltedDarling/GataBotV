@@ -1,6 +1,6 @@
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 require('./config.js') 
-let { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
+let { WAConnection: _WAConnection } = require('@adiwajshing/baileys')  
 let { generate } = require('qrcode-terminal')
 let syntaxerror = require('syntax-error')
 let simple = require('./lib/simple')
